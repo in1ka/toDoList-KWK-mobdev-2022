@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		BD7D26E028821E9300801852 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7D26DF28821E9300801852 /* AppDelegate.swift */; };
 		BD7D26E228821E9300801852 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7D26E128821E9300801852 /* SceneDelegate.swift */; };
-		BD7D26E428821E9300801852 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7D26E328821E9300801852 /* ViewController.swift */; };
 		BD7D26E728821E9300801852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7D26E528821E9300801852 /* Main.storyboard */; };
 		BD7D26EA28821E9300801852 /* toDoList_KWK_mobdev_2022.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD7D26E828821E9300801852 /* toDoList_KWK_mobdev_2022.xcdatamodeld */; };
 		BD7D26EC28821E9500801852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7D26EB28821E9500801852 /* Assets.xcassets */; };
 		BD7D26EF28821E9500801852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7D26ED28821E9500801852 /* LaunchScreen.storyboard */; };
+		BD7D26F72882238000801852 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7D26F62882238000801852 /* ToDoTableViewController.swift */; };
+		BD7D26F92882251500801852 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7D26F82882251500801852 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BD7D26DC28821E9300801852 /* toDoList KWK mobdev 2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "toDoList KWK mobdev 2022.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7D26DF28821E9300801852 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD7D26E128821E9300801852 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BD7D26E328821E9300801852 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD7D26E628821E9300801852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD7D26E928821E9300801852 /* toDoList_KWK_mobdev_2022.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = toDoList_KWK_mobdev_2022.xcdatamodel; sourceTree = "<group>"; };
 		BD7D26EB28821E9500801852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD7D26EE28821E9500801852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD7D26F028821E9500801852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD7D26F62882238000801852 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		BD7D26F82882251500801852 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,9 @@
 			children = (
 				BD7D26DF28821E9300801852 /* AppDelegate.swift */,
 				BD7D26E128821E9300801852 /* SceneDelegate.swift */,
-				BD7D26E328821E9300801852 /* ViewController.swift */,
+				BD7D26F62882238000801852 /* ToDoTableViewController.swift */,
 				BD7D26E528821E9300801852 /* Main.storyboard */,
+				BD7D26F82882251500801852 /* ToDo.swift */,
 				BD7D26EB28821E9500801852 /* Assets.xcassets */,
 				BD7D26ED28821E9500801852 /* LaunchScreen.storyboard */,
 				BD7D26F028821E9500801852 /* Info.plist */,
@@ -142,7 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD7D26EA28821E9300801852 /* toDoList_KWK_mobdev_2022.xcdatamodeld in Sources */,
-				BD7D26E428821E9300801852 /* ViewController.swift in Sources */,
+				BD7D26F92882251500801852 /* ToDo.swift in Sources */,
+				BD7D26F72882238000801852 /* ToDoTableViewController.swift in Sources */,
 				BD7D26E028821E9300801852 /* AppDelegate.swift in Sources */,
 				BD7D26E228821E9300801852 /* SceneDelegate.swift in Sources */,
 			);
